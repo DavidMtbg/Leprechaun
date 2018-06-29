@@ -5,7 +5,7 @@ Leprechaun is a universal, open API for code generation from [Rainbow](https://g
 
 ## Why should I use Leprechaun?
 ### It's Really Flexible
-Leprechaun uses [C# Script](https://blogs.msdn.microsoft.com/visualstudio/2011/10/19/introducing-the-microsoft-roslyn-ctp/) files as templates. If you're familiar with C#, it's a breeze. Out of the box, a [Synthesis script file](https://github.com/blipson89/Leprechaun/blob/master/src/Leprechaun.CodeGen.Roslyn/Scripts/Synthesis.csx) is provided, but it can easily be adapted to generate templates Glass, Fortis, or more! The template is essentially a big `StringBuilder` that you can build out however you like and Leprechaun will fill in the rest. 
+Leprechaun uses [C# Script](https://blogs.msdn.microsoft.com/visualstudio/2011/10/19/introducing-the-microsoft-roslyn-ctp/) files as templates. If you're familiar with C#, it's a breeze. Out of the box, [Synthesis](https://github.com/blipson89/Leprechaun/blob/master/src/Leprechaun.CodeGen.Roslyn/Scripts/Synthesis.csx) and [Glass Mapper](https://github.com/blipson89/Leprechaun/blob/master/src/Leprechaun.CodeGen.Roslyn/Scripts/GlassMapper.csx) script files are provided, but it can easily be adapted to generate templates for Fortis, or others! The template is essentially a big `StringBuilder` that you can build out however you like and Leprechaun will fill in the rest. 
 ### It Can Be Run at Build-Time
 Sick of trying to resolve merge conflicts in gigantic model files? You don't need to do that anymore with Leprechaun. The outputted model files don't have to be checked into source control at all!
 
